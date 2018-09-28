@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang='en'>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|Pacifico" rel="stylesheet">
+   <style>
+     #btn1 {
+	 height: 50px;
+	 width: 200px;
+	 color: white;
+	 background-color: coral;
+	 }
+	 .bgcolor {
+	 background-color: DarkSlateBlue;
+	 }
+	 .questions {
+	 font-family: 'Open Sans', sans-serif;
+	 color: white;
+	 }
+	 .answers {
+	 font-family: 'Open Sans', sans-serif;
+	 color: white;
+	 }
+	 .main {
+	 font-family: 'Pacifico', cursive;
+	 font-size: 3.5em;
+	 color: white;
+	 text-align: center;
+	 }
+	 .center {
+	 margin: auto;
+	 width: 70%;
+    }
+	.btncenter{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+	}
+	 .oswald{
+	 font-family: 'Oswald', sans-serif;
+	 color: white;
+	 }
+	 #show {
+	 text-align: center;
+	 }
+	 
+   </style>
+   </head>
+<body class="bgcolor center">
+<h1 class="main">Fall is for Favorites</h1>
+<div class="center">
+  <h4 class="questions">1. What is your favorite type of pie?</h4>
+  <form action="#" class="answers">
+  <label for="pumpkin"><input id="pumpkin" type="radio" name="question1">Pumpkin</label><br>
+  <label for="apple"><input id="apple" type="radio" name="question1">Apple</label><br>
+  <label for="peach"><input id="peach" type="radio" name="question1">Peach</label><br>
+  <label for="all"><input id="all" type="radio" name="question1">All of the above</label><br>
+
+  <h4 class="questions">2. In general, warm chocolate chip cookies are better than pie.</h4>
+  <label for="affirm"><input id="affirm" type="radio" name="question2">True</label><br>
+  <label for="negate"><input id="negate" type="radio" name="question2">False</label><br>
+
+  <h4 class="questions">3. Carving pumpkins is:</h4>
+  <label for="messy"><input id="messy" type="radio" name="question3">Messy but worth it</label><br>
+  <label for="smelly"><input id="smelly" type="radio" name="question3">Smelly but worth it</label><br>
+  <label for="thebest"><input id="thebest" type="radio" name="question3">The best part of Halloween</label><br>
+  <label for="all2"><input id="all2" type="radio" name="question3">All of the above</label><br>
+  </form>
+  <br>
+  <div class="btncenter">
+ <button id="btn1" onclick="costco()" class="answers">Finish</button>
+  </div>
+  <h1 id="show" class="main"></h1>
+</div>
+
+<script>
+	function costco(){
+	document.getElementById("show").innerHTML = "Congratulations!";
+	}
+ </script>
+ 
+ 
+</body>
+</html>

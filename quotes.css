@@ -1,0 +1,38 @@
+
+#q1 {
+	font-family: 'Faster One', cursive;
+	color: red;
+	font-size: 3em;
+	text-align: center;
+	padding: 20% 0;
+}
+
+#q2 {
+	background-color: black;
+	height: 400px;
+	text-align: center;
+	padding: 20% 0;
+	
+}
+#yourFace {
+	font-family: 'Corben', cursive;
+	font-size: 3em;
+	color: white;
+}
+
+#twenty {
+	color: white;
+	text-align: right;
+	font-family: 'Corben', cursive;
+	font-size: 1.5em;
+	padding-right: 10%;
+}
+
+#q3{
+	font-family: 'Corben', cursive;
+	background-color: #f79e71;
+	color: #f9eae3;
+	font-size: 6em;
+	text-align: center;
+	padding: 20% 0;
+}

@@ -20,7 +20,7 @@
 	color: white;
 }
 
-#twenty {
+.author {
 	color: white;
 	text-align: right;
 	font-family: 'Corben', cursive;
@@ -28,10 +28,36 @@
 	padding-right: 10%;
 }
 
-#q3{
+#q3 {
 	font-family: 'Corben', cursive;
 	background-color: #f79e71;
 	color: #f9eae3;
+	font-size: 2em;
+	text-align: center;
+	padding: 20% 0;
+}
+
+#q3auth {
+	color: #f9eae3;
+	text-align: right;
+	font-family: 'Corben', cursive;
+	font-size: 0.5em;
+	padding-right: 10%;
+}
+
+#q4 {
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	background-image: linear-gradient(#f79e71, yellow);
+	color: white;
+	font-size: 6em;
+	text-align: center;
+	padding: 20% 0;
+}
+
+#q5 {
+	font-family: 'Permanent Marker', cursive;
+	background-image: linear-gradient(yellow, aqua);
+	color: black;
 	font-size: 6em;
 	text-align: center;
 	padding: 20% 0;

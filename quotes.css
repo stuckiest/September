@@ -98,3 +98,22 @@ a:hover
 	text-align: center;
 	padding: 20% 0;
 }
+
+#q7 {
+	font-family: 'Permanent Marker', cursive;
+	background-image: linear-gradient(pink, #4df266);
+	color: black;
+	font-size: 3em;
+	text-align: center;
+	padding: 20% 0;
+
+}
+
+#q8 {
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	background-image: linear-gradient(#4df266, #094412);
+	color: yellow;
+	font-size: 4em;
+	text-align:center;
+	padding: 20% 0;
+}

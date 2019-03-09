@@ -1,4 +1,31 @@
 
+body{
+	width: 100%;
+}
+
+#header {
+	font-family: 'Corben', cursive;
+	background-color: black;
+	color: white;
+	text-align: left;
+	padding: 5px;
+	font-size: 1.5em;
+	position: fixed;
+	width: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color: pink; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
 #q1 {
 	font-family: 'Faster One', cursive;
 	color: red;

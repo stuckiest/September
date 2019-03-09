@@ -5,7 +5,7 @@ body{
 
 #header {
 	font-family: 'Corben', cursive;
-	background-color: black;
+	background-color: transparent;
 	color: white;
 	text-align: left;
 	padding: 5px;
@@ -15,7 +15,7 @@ body{
 }
 
 a {
-    color: white;
+    color: #ddd9d9;
     text-decoration: none;
 }
 

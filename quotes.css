@@ -114,6 +114,31 @@ a:hover
 	background-image: linear-gradient(#4df266, #094412);
 	color: yellow;
 	font-size: 4em;
-	text-align:center;
+	text-align: center;
 	padding: 20% 0;
+}
+
+#q9 {
+	font-family: 'Homemade Apple', cursive;
+	background-image: linear-gradient(#094412, black);
+	color: white;
+	font-size: 4em;
+	text-align: center;
+	padding: 20% 0;
+}
+
+#q10 {
+	font-family: 'Fredericka the Great', cursive;
+	background-image: linear-gradient(black, white);
+	color: pink;
+	font-size: 4em;
+	text-align: center;
+	padding: 20% 0;
+}
+#q10auth {
+	color: pink;
+	text-align: right;
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 0.5em;
+	padding-right: 10%;
 }

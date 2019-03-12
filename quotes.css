@@ -3,6 +3,12 @@ body{
 	width: 100%;
 }
 
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	/*align-items: center;*/
+}
+
 #header {
 	font-family: 'Corben', cursive;
 	background-color: transparent;
@@ -31,14 +37,14 @@ a:hover
 	color: red;
 	font-size: 3em;
 	text-align: center;
-	padding: 20% 0;
+	padding: 15% 0; /*top and bottom paddings are 15% of width of containing element, right and left paddings are 0%*/
 }
 
 #q2 {
 	background-color: black;
-	height: 400px;
+	/*height: 400px;*/
 	text-align: center;
-	padding: 20% 0;
+	padding: 15% 0;
 	
 }
 #yourFace {
@@ -61,7 +67,7 @@ a:hover
 	color: #f9eae3;
 	font-size: 2em;
 	text-align: center;
-	padding: 20% 0;
+	padding: 15% 0;
 }
 
 #q3auth {
@@ -78,7 +84,7 @@ a:hover
 	color: white;
 	font-size: 6em;
 	text-align: center;
-	padding: 20% 0;
+	padding: 10% 0% 15% 0%; /*top, right, bottom, left*/
 }
 
 #q5 {
@@ -87,7 +93,7 @@ a:hover
 	color: black;
 	font-size: 6em;
 	text-align: center;
-	padding: 20% 0;
+	padding: 10% 0% 15% 0%;
 }
 
 #q6 {
@@ -96,7 +102,7 @@ a:hover
 	color: black;
 	font-size: 3em;
 	text-align: center;
-	padding: 20% 0;
+	padding: 15% 0;
 }
 
 #q7 {
@@ -105,7 +111,7 @@ a:hover
 	color: black;
 	font-size: 3em;
 	text-align: center;
-	padding: 20% 0;
+	padding: 10% 0% 15% 0%;
 
 }
 
@@ -115,7 +121,7 @@ a:hover
 	color: yellow;
 	font-size: 4em;
 	text-align: center;
-	padding: 20% 0;
+	padding: 10% 0% 15% 0%;
 }
 
 #q9 {
@@ -124,16 +130,16 @@ a:hover
 	color: white;
 	font-size: 4em;
 	text-align: center;
-	padding: 20% 0;
+	padding: 15% 0;
 }
 
 #q10 {
 	font-family: 'Fredericka the Great', cursive;
-	background-image: linear-gradient(black, white);
+	background-color: black;
 	color: pink;
 	font-size: 4em;
 	text-align: center;
-	padding: 20% 0;
+	padding: 5% 0% 15% 0%;
 }
 #q10auth {
 	color: pink;

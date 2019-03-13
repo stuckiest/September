@@ -1,0 +1,26 @@
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.para{
+	background-color: aqua;
+}
+
+.pix {
+	height: 200px;
+	width: 300px;
+	background-color: pink;
+}
+
+h1{
+	font-family: 'Corben', cursive;
+	color: darkblue;
+}
+
+h3 {
+	font-family: 'Corben', cursive;
+	color: darkblue;
+	}
+
